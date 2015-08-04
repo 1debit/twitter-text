@@ -81,7 +81,7 @@
 #define TWUSymbol               @"[a-z]{1,6}(?:[._][a-z]{1,2})?"
 #define TWUValidSymbol \
     @"(?:^|[" TWUUnicodeSpaces @"])" \
-    @"(\\$" TWUSymbol @")" \
+    @"(\\~" TWUSymbol @")" \
     @"(?=$|\\s|[" TWUPunctuationChars @"])"
 
 //
